@@ -6,7 +6,6 @@ const props = defineProps({
   memo: Object
 })
 const emits = defineEmits(['save', 'delete', 'back'])
-
 const memoContent = ref(props.memo.content)
 
 watch(
