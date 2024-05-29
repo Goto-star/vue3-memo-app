@@ -1,35 +1,29 @@
-# vuer-memo-app
+# vue3-memo-app
 
-This template should help get you started developing with Vue 3 in Vite.
+プラクティス[create-vue](https://bootcamp.fjord.jp/practices/209)の提出物です
 
-## Recommended IDE Setup
+## プロジェクトのセットアップ
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+1. リポジトリをクローンします.
 
-## Customize configuration
+```sh
+git clone https://github.com/Goto-star/vue3-memo-app
+```
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+2. プロジェクトのディレクトリに移動します.
 
-## Project Setup
+```sh
+cd vue3-memo-app
+```
+
+3. 依存関係をインストールします。
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+4. 開発サーバーを起動し、アプリケーションをブラウザで確認します。
 
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
