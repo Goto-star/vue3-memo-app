@@ -19,6 +19,9 @@ const editMemo = (id) => {
 
 const saveMemo = (memo) => {
   const index = memos.value.findIndex((m) => m.id === memo.id)
+  if (memo.content.trim() === '') {
+    return
+  }
   if (index !== -1) {
     memos.value[index] = memo
   } else {
